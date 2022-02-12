@@ -1,0 +1,98 @@
+.messenger{
+  width: 100%;
+  height: 100%;
+}
+  .sidenav {
+    height: 100%;
+    width: 35%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(17,27,33);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .user{
+    width: 100%;
+    height: 60px;
+    color: white;
+    display: flex;
+    padding:0px 2px 0px 10px;
+    background-color: white;
+    align-items: center;
+  }
+  /* .user:hover{
+    background-color: beige;
+    cursor: pointer;
+  } */
+  .userimg img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .userinfo{
+    margin-left: 5px;
+    width: 90%;
+    color: black;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    height: 100%;
+  }
+
+.chatbox {
+  margin-left:35%;
+  background-color: rgb(243, 227, 227);
+  height: 100vh;
+}
+.chatboxwrapper{
+  padding: 15px 20px 2px 20px;
+  height: 85.7vh;
+  overflow-y: scroll;
+  background-color: rgb(20,28,34);
+}
+.chatBoxBottom {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  padding: 15px;
+  align-items: center;
+  /* justify-content: center;  */
+   /* height: 80px; */
+   background-color: rgb(32,44,51);
+  bottom: 0%;
+  border: 1px solid rgb(32,44,51);
+}
+
+.chatMessageInput {
+  width: 100%;
+  height: 0px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  /* border: 2px solid #ccc; */
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(42,57,66);
+  font-size: 16px;
+  resize: none;
+  outline:none;
+  margin-right: 20px;
+  color: whitesmoke;
+}
+
+.chatSubmitButton {
+  width: 70px;
+  height: 40px;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+
+
+
+

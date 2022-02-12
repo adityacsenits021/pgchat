@@ -1,0 +1,31 @@
+.user{
+    width: 100%;
+    height: 60px;
+    color: white;
+    display: flex;
+    padding:0px 2px 0px 10px;
+    background-color: white;
+    align-items: center;
+  }
+  /* .user:hover{
+    background-color: beige;
+    cursor: pointer;
+  } */
+  .userimg img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .userinfo{
+    margin-left: 5px;
+    width: 90%;
+    color: black;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    height: 100%;
+  }
+  
+  
